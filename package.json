@@ -1,0 +1,14 @@
+{
+  "name": "share-file",
+  "version": "1.0.0",
+  "description": "Share files over http",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "William Maillard",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0"
+  }
+}

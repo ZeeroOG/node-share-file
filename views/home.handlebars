@@ -1,0 +1,20 @@
+<div class="container">
+	<div class="panel panel-primary" style="max-width: 500px; text-align: center; margin-left: auto; margin-right: auto; margin-top: 30px;">
+		<div class="panel-heading">
+			<h3 class="panel-title">{{filename}}</h3>
+		</div>
+	  <div class="panel-body">
+	    <img src="preview.png" />
+	  </div>
+	  <div class="panel-footer">
+		  <button id="download" class="btn btn-block btn-primary">Download</button>
+	  </div>
+	</div>
+
+	<script type="text/javascript">
+		$('#download').click(function(e) {
+			e.preventDefault();
+			window.location.href = '{{fileurl}}';
+		});
+	</script>
+</div>
